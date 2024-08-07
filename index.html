@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Smythe&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Jimmy's Dinner</h1>
+            <p>The best pizzas and burgers in town</p>
+        </header>
+
+        <main>
+            <section class="menu" id="menu"> 
+                 <!-- menu items-->
+            </section>
+
+            <section class="order" id="order">
+                <h1>Your Order</h1>
+                    <div class="order-items">
+                            <ul class="order-list" id="order-list">
+                                 <!-- order items -->
+                            </ul>
+                    </div>
+        
+                <div class="order-total-price">
+                    <h3>Total price: </h3>
+                    <h3  id="total-price"></h3>
+                </div>
+                <button class="order-complete-btn" id="order-complete-btn">Complete order</button>   
+            </section>
+
+            <section class="on-the-way" id="on-the-way">
+                <!--Thank for the order -->
+            </section>
+
+        
+
+            <section class="checkout-form" >
+                <!-- form -->
+                <form id="checkout-form">
+                    <h3 class="form-title">Enter card details</h3>
+                    <div class="form-input-container">
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        <input type="text" id="card-number" name="card-number" placeholder="Enter card number" required>
+                        <input type="text" id="card-cvv" name="cvv" placeholder="Enter CVV" required>
+                    </div>
+                    <button type="submit" class="checkout-pay-button" id="checkout-pay-button">Pay</button>
+                </form>
+            </section>
+            
+        </main>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+

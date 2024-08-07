@@ -1,0 +1,209 @@
+/* Layout */
+body {
+    margin: 0 auto;
+    width: 400px;
+    font-family: "Smythe", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    border: 1px solid lightgray;
+} 
+
+
+header{
+    background-image: url(hamburger.jpg);
+    background-size: cover;
+    background-position: right center;
+    color: white;
+    padding: 10px;
+}
+
+
+
+/* typography */
+
+h1, h2, h3{
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+}
+
+/* menu */
+
+.menu{
+    margin: 30px 20px;
+    position: relative;
+    
+}
+
+.menu-item{
+    padding: 10px 0px;
+    display: flex;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.menu-item-emoji{
+    margin: auto 10px;
+    font-size: 60px;
+    align-self: center;
+}
+
+.menu h2, .menu h3, .menu p{
+    margin: 0;
+    padding: 0;
+}
+
+.menu h3{
+    padding-top: 5px;
+}
+
+.menu p{
+    color: #8B8B8B;
+}
+
+.menu-add{
+    position: absolute;
+    align-self: center;
+    right: 0;
+}
+
+.menu-add-btn{
+    border: solid 1px #DEDEDE;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: lighter;
+    background-color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+}
+
+/* Your order part*/
+.order{
+    display: none;
+}
+.order h1{
+    text-align: center;
+}
+
+.order-list {
+    border-bottom: 3px solid black;
+    margin: 0 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.one-order-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.order-item-name {
+    display: flex;
+    align-items: center;
+}
+
+.order-item-price {
+    display: flex;
+    align-items: center;
+}
+
+.order-item-price p {
+    margin-right: 10px;
+}
+
+
+.order-item-remove-btn{
+    align-self: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #BBBBBB;
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.order-total-price{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+    padding: 0;
+}
+
+.order-complete-btn{
+    background-color: #16DB99;
+    padding: 15px 130px;
+    margin: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Order thank div*/
+.on-the-way{
+    display: none;
+}
+.on-its-way-container{
+    background-color: #ECFDF5;
+    color: #065F46;
+    margin: 10px 20px;
+    padding: 30px 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+/* checkout form */
+
+form{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    height: 340px;
+    width: 350px;
+    border: 2px solid black;
+    border: 0px;
+    border-radius: 2px;
+    box-shadow:  5px 5px 30px 30px lightgrey;
+    background-color: white;
+
+
+    display: none;
+}
+
+.form-input-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-title{
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+input{
+    padding: 10px 20px;
+    margin:10px 20px;
+    border: 1px solid #757575;
+    border-radius: 3px;
+}
+
+.checkout-pay-button{
+    background-color: #16DB99;
+    padding: 15px 125px;
+    margin: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 3px;
+}
