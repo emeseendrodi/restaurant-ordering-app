@@ -38,6 +38,7 @@ h1, h2, h3{
 .menu-item{
     padding: 10px 0px;
     display: flex;
+    background-color: #8B8B8B;
     border-bottom: 1px solid #D2D2D2;
 }
 
